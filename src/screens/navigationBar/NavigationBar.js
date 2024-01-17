@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { navigationLinks } from '../../helpers/navigationLinks';
 import './navigation.css'
 
+
 function createLinks(){
     return navigationLinks.map((e,idx)=>{
        return <Nav.Link key={idx} href={e.ref}>{e.name}</Nav.Link>
