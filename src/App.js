@@ -8,6 +8,8 @@ import Technologies from './screens/technologies/Technologies';
 
 import Portfolio from './screens/portfolio/Portfolio';
 
+import ContactMe from './screens/contactMe/ContactMe';
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +18,7 @@ function App() {
       <AboutMe />
       <Technologies />
       <Portfolio />
+      <ContactMe />
     </div>
   );
 }
