@@ -6,6 +6,8 @@ import AboutMe from './screens/aboutMe/AboutMe';
 
 import Technologies from './screens/technologies/Technologies';
 
+import Portfolio from './screens/portfolio/Portfolio';
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +15,7 @@ function App() {
 
       <AboutMe />
       <Technologies />
+      <Portfolio />
     </div>
   );
 }
